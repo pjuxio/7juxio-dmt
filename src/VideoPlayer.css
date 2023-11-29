@@ -1,0 +1,12 @@
+/* src/VideoPlayer.css */
+
+/* Default styles for the video player */
+.video-container {
+    text-align: left;
+}
+
+.video-player {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+}

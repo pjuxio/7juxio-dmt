@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
+/* Global Styles */
+html,
+body {
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+/* Set font to Josefin Sans */
+body {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Layout */
+.hypermedia-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+/* Styling */
+body {
+  background-color: #06063C;
+  color: #ffffff;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Input Styles */
+.input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #0e1251;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* Float the statement to the right */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-logo {
+  width: 100px;
+  height: auto;
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer-statement {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 20px;
+}
+
+.about-img {
+  width: 30vw;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Media Query for Main Image on Mobile */
+@media (max-width: 600px) {
+  .main-img {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* Adjust layout for mobile */
+  .hypermedia-container {
+    flex-direction: column;
   }
+}
+
+.nav-column2 {
+  flex: 1;
+  padding: 0px 20px 0px 15px;
+}
+
+.video-column2 {
+  flex: 3;
+  padding: 0px 0px 0px 20px;
+}
+
+.album-cover2 {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Add media query for mobile devices */
+@media (max-width: 768px) {
+  .album-cover2 {
+    width: 33%;
+    max-width: 100%;
+    float: left;
+    padding-right: 10px;
+  }
+}
+
+.album-title {
+  font-size: 1.75rem;
+}
+
+.album-blurb {
+  font-size: 1.2rem;
+}
+
+/* Add media query for mobile devices */
+@media (max-width: 768px) {
+  .album-title {
+    font-size: 1.2rem;
+  }
+
+  .album-blurb {
+    font-size: 1rem;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .hypermedia-container {
+    flex-direction: column;
+    /* Stack columns on top of each other */
+  }
+
+  .nav-column2,
+  .video-column2 {
+    flex: 1;
+    /* Equal width for both columns on mobile */
+    padding: 0px;
+  }
+}
+
+/* Swap the video and nav columns on mobile */
+@media (max-width: 768px) {
+  .hypermedia-container {
+    flex-direction: column-reverse;
+    /* Reverse the column order */
+  }
+}
+
+/* Button styles */
+.album-button {
+  background-color: #42498f;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 6px;
+  margin: 4px;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px;
+  /* Add the following styles for responsiveness */
+  margin-bottom: 10px;
+  /* Adjust the margin as needed */
+  transition: background-color 0.3s ease;
+}
+
+/* Mobile styles for button */
+@media (max-width: 768px) {
+  .album-button {
+    font-size: 14px;
+    padding: 5px;
+    margin: 4px;
+    width: 45%;
+    /* Make the button width 100% of the container */
+  }
+}
+
+/* Hover effect */
+.album-button:hover {
+  background-color: #d9d9d9;
+  color: #222;
+}
+
+.contents-box {
+  float: left;
+}
+
+.about-button {
+  padding: 4px;
+  float: left;
 }
