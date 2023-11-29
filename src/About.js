@@ -19,7 +19,7 @@ const About = () => {
     <div className="container-about">      
       <h1>Dream Manifestation Toolkit</h1>
       <p>This project explores the concept of the mashup (or remix) and extends it into the visual realm through hypermedia.</p>
-      <p>The remix is a core element of the hip hop arts experience and central to the cultures of turntablism and beatmaking. In this project, 7juxio reimagines itself conjuring magical mix that include some of the greatest artists of all time. What if the 7juxio technology could actualize this alternate reality and bring these artists together for a collaboration?</p>
+      <p>The remix is a core element of the hip hop arts experience and central to the cultures of turntablism and beatmaking. In this project, 7juxio reimagines itself conjuring magical mix that include some of the greatest artists of all time. What if the 7juxio platform could actualize this alternate reality and bring these artists together for a collaboration?</p>
       <p>This hypermedia release from <strong>7juxio</strong> is delivered via a React app coded using ChatGPT.</p>
     </div>
   );

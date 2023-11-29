@@ -142,7 +142,7 @@ body {
   .video-column2 {
     flex: 1;
     /* Equal width for both columns on mobile */
-    padding: 0px;
+    padding: 10px;
   }
 }
 
