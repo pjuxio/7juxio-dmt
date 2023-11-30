@@ -1,3 +1,10 @@
+# ABOUT
+
+This is the source code to build the 7juxio hypermedia app: Dream Manifestation Toolkit
+https://dmt.7jux.io
+
+You will need to add /videos the public directory: https://www.dropbox.com/scl/fi/i1my6pl6mz0wgid9kab6c/Add-to-public.zip?rlkey=jaqyge9f5vsi5gqb5tmmp4kb5&dl=0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
