@@ -1,6 +1,11 @@
 /* About.css */
-     
-      .container-about {
-        width: 75%;
-        font-size: 20px;
-      }
+
+.container-about {
+  width: 75%;
+  font-size: 20px;
+}
+
+a {
+  color: #c2a0d2;
+  text-decoration: underline;
+}

@@ -8,7 +8,7 @@ import './App.css';
 import videoButtons from './VideoButtons'; // Import the videoButtons array
 
 // Initialize Google Analytics
-ReactGA.initialize('G-XH29HZ0KCL');
+ReactGA.initialize('G-89F8S4JGSE');
 
 const AppContent = () => {
   const location = useLocation();
@@ -84,7 +84,7 @@ const AppContent = () => {
       </div>      
 
       <div className="footer">
-        <img src="7juxio.png" alt="Logo" className="footer-logo" />
+        <a href="https://7jux.io"><img src="7juxio.png" alt="Logo" className="footer-logo" /></a>
         <span className="footer-statement">a 7juxio hypermedia app</span>
       </div>
 
